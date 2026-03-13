@@ -13,4 +13,4 @@ This project implements a behavioral half adder in Verilog.
 
 ### Simulation Waveform
 
-![HalfAdder Waveform](halfadder_waveform.png)
+<img src="halfadder_waveform.png" width="700">
