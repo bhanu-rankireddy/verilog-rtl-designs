@@ -84,4 +84,4 @@ time=8000 | a=1 b=1 carry_in=1 | sum=1 carry_out=1
 
 ## Simulation Waveform
 
-![Full Adder Waveform](Images/full_adder_behavioral_waveform.png)
+<img src="Images/Full_adder_behavioral_waveform.png" width="700">
