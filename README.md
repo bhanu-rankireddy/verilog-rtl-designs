@@ -26,4 +26,4 @@ This project implements the Half Adder in Verilog using two modeling styles:
 
 ## Simulation Waveform
 
-<img src="halfadder_waveform.png" width="700">
+<img src="Images/halfadder_waveform.png" width="700">
