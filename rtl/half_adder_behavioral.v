@@ -11,4 +11,4 @@ always @ (*) begin
 	sum   = a ^ b;
 	carry = a & b;
    end
-endmodule    
+endmodule   
