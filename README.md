@@ -198,12 +198,14 @@ This is implemented using:
 | 1 | 1 |  1  |   1  |
 
 ## Simulation Output
+```text
 time=1000 | a=1 b=0 sel=1 | y=0
 time=2000 | a=0 b=1 sel=0 | y=0
 time=3000 | a=0 b=1 sel=1 | y=1
 time=4000 | a=0 b=0 sel=1 | y=0
 time=5000 | a=1 b=1 sel=1 | y=1
 time=6000 | a=0 b=0 sel=0 | y=0
+```
 
 ## Simulation Waveform
 <img src="Images/mux_2x1_waveform.png" width="700">
@@ -271,11 +273,12 @@ The select inputs were varied through all combinations of `s1` and `s0`.
 
 ## Simulation Output
 
+```text
 time=1000 | d0=0 d1=1 d2=0 d3=1 | s1=0 s0=0 | y=0
 time=2000 | d0=0 d1=1 d2=0 d3=1 | s1=0 s0=1 | y=1
 time=3000 | d0=0 d1=1 d2=0 d3=1 | s1=1 s0=0 | y=0
 time=4000 | d0=0 d1=1 d2=0 d3=1 | s1=1 s0=1 | y=1
-
+```
 ## Simulation Waveform
 
 <img src="Images/mux_4x1_waveform.png" width="700">
@@ -326,12 +329,12 @@ This is implemented using:
 | 1 | 1 | 0 | 1 |
 
 ## Simulation Output
-
+```text
 time=1000 | x=0 sel=0 y0=0 y1=0
 time=2000 | x=0 sel=1 y0=0 y1=0
 time=3000 | x=1 sel=0 y0=1 y1=0
 time=4000 | x=1 sel=1 y0=0 y1=1
-
+```
 ## Simulation Waveform
 <img src="Images/Demux_1x2_waveform.png" width="700">
 
