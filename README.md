@@ -120,25 +120,23 @@ This is called a **Ripple Carry Adder** because the carry propagates from the le
 
 For the input:
 
-- `a = 1010` (decimal 10)
-- `b = 0110` (decimal 6)
-- `carry_in = 1`
+- a = 1010 (decimal 10)
+- b = 0110 (decimal 6)
+- carry_in = 1
 
 The result is:
 
-```text
+
 10 + 6 + 1 = 17
 17 = 10001 (binary)
 So the adder outputs:
 
-- `sum = 0001`
-- `carry_out = 1`
+- sum = 0001
+- carry_out = 1
 
----
 
 ## Simulation Output
 
-```text
 time=1000 | a=0000 b=0000 carry_in=0 | sum=0 carry_out=0
 time=2000 | a=0000 b=0000 carry_in=1 | sum=1 carry_out=0
 time=3000 | a=0001 b=0001 carry_in=0 | sum=2 carry_out=0
