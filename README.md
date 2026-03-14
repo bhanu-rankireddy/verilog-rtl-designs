@@ -137,14 +137,14 @@ So the adder outputs:
 
 
 ## Simulation Output
-
+```text
 time=1000 | a=0000 b=0000 carry_in=0 | sum=0 carry_out=0
 time=2000 | a=0000 b=0000 carry_in=1 | sum=1 carry_out=0
 time=3000 | a=0001 b=0001 carry_in=0 | sum=2 carry_out=0
 time=4000 | a=0001 b=0001 carry_in=1 | sum=3 carry_out=0
 time=5000 | a=0011 b=0110 carry_in=0 | sum=9 carry_out=0
 time=6000 | a=1010 b=0110 carry_in=1 | sum=1 carry_out=1
-
+```
 ## Simulation Waveform
 <img src="Images/ripple_carry_adder_4bit_waveform.png" width="700">
 
