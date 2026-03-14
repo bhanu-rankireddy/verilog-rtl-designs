@@ -72,6 +72,7 @@ carry_out = (a & b) | ((a ^ b) & carry_in
 
 ## Simulation Output
 
+```text
 time=1000 | a=0 b=0 carry_in=0 | sum=0 carry_out=0
 time=2000 | a=0 b=0 carry_in=1 | sum=1 carry_out=0
 time=3000 | a=0 b=1 carry_in=0 | sum=1 carry_out=0
@@ -81,7 +82,7 @@ time=6000 | a=1 b=0 carry_in=1 | sum=0 carry_out=1
 time=7000 | a=1 b=1 carry_in=0 | sum=0 carry_out=1
 time=8000 | a=1 b=1 carry_in=1 | sum=1 carry_out=1
 
-
+```
 ## Simulation Waveform
 
 <img src="Images/Full_adder_waveform.png" width="700">
