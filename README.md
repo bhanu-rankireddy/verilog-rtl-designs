@@ -180,11 +180,8 @@ y = a·sel' + b·sel
 ```
 
 This is implemented using:
-
 1 NOT gate
-
 2 AND gates
-
 1 OR gate
 ---
 ## Truth Table
