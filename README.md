@@ -279,5 +279,5 @@ time=4000 | d0=0 d1=1 d2=0 d3=1 | s1=1 s0=1 | y=1
 
 ## Simulation Waveform
 
-<img src="Images/mux_4to1_waveform.png" width="700">
+<img src="Images/mux_4x1_waveform.png" width="700">
 
