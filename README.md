@@ -270,12 +270,11 @@ The select inputs were varied through all combinations of `s1` and `s0`.
 
 ## Simulation Output
 
-```
 time=1000 | d0=0 d1=1 d2=0 d3=1 | s1=0 s0=0 | y=0
 time=2000 | d0=0 d1=1 d2=0 d3=1 | s1=0 s0=1 | y=1
 time=3000 | d0=0 d1=1 d2=0 d3=1 | s1=1 s0=0 | y=0
 time=4000 | d0=0 d1=1 d2=0 d3=1 | s1=1 s0=1 | y=1
-``` 
+
 ## Simulation Waveform
 
 <img src="Images/mux_4x1_waveform.png" width="700">
