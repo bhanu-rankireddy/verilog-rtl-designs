@@ -433,6 +433,7 @@ time=9000 | x0=1 x1=1 E=0 | y0=0 y1=0 y2=0 y3=0
 ```
 ## Simulation Waveform
 <img src="Images/Decoder2x4_waveform.png" width="700">
+
 # 2-to-4 Decoder (Active-Low Enable)
 
 This project implements a **2-to-4 Decoder** in Verilog using **structural modeling** with an **active-low enable** input.
@@ -481,7 +482,8 @@ time=8000,|x0=1,x1=0,E=1,|y0=0,y1=0,y2=0,y3=0
 time=9000,|x0=1,x1=1,E=1,|y0=0,y1=0,y2=0,y3=0
 ````
 ## Simulation Waveform
-<img src="Images/decoder2x4_active_low_waveform.png" width="700">```
+<img src="Images/decoder2x4_active_low_waveform.png" width="700">
+
 # 3-to-8 Decoder (Active-High Enable)
 
 This project implements a **3-to-8 Decoder** in Verilog using **behavioral modeling** and verifies it using ModelSim.
@@ -530,7 +532,7 @@ time=8000,|a=6,enable=1,|y=01000000
 time=9000,|a=7,enable=1,|y=10000000
 ```
 ## Simulation Waveform
-<img src="Images/decoder3x8_waveform.png" width="700"> ```
+<img src="Images/decoder3x8_waveform.png" width="700"> 
 
 # 4-Bit ALU (Arithmetic Logic Unit)
 
@@ -582,6 +584,11 @@ It also generates:
 | 111 | A >> 1 |
 
 ---
+## Key Concepts
+
+- Subtraction uses fixed-width arithmetic  
+- When `A < B`, result is represented in 2’s complement form  
+- Borrow is generated using: borrow = (A < B);
 
 ## Simulation Output
 
@@ -598,4 +605,4 @@ time=8000 | A=0011 B=0101 sel=001 | Y=1110 carry=0 borrow=1 zero=0
 time=9000 | A=0101 B=0101 sel=001 | Y=0000 carry=0 borrow=0 zero=1
 ```
 ## Simulation Waveform
-<img src="Images/ALU_4bit_waveform.png" width="700"> ```
+<img src="Images/ALU_4bit_waveform.png" width="700"> 
