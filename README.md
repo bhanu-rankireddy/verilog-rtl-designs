@@ -482,7 +482,7 @@ time=8000,|x0=1,x1=0,E=1,|y0=0,y1=0,y2=0,y3=0
 time=9000,|x0=1,x1=1,E=1,|y0=0,y1=0,y2=0,y3=0
 ````
 ## Simulation Waveform
-<img src="Images/decoder2x4_active_low_waveform.png" width="700">
+<img src="Images/decoder2x4_waveform.png" width="700">
 
 # 3-to-8 Decoder (Active-High Enable)
 
