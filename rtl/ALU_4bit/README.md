@@ -69,4 +69,4 @@ time=8000 | A=0011 B=0101 sel=001 | Y=1110 carry=0 borrow=1 zero=0
 time=9000 | A=0101 B=0101 sel=001 | Y=0000 carry=0 borrow=0 zero=1
 ```
 ## Simulation Waveform
-<img src="Images/ALU_4bit_waveform.png" width="700"> 
+<img src="images/ALU_4bit_waveform.png" width="700"> 
