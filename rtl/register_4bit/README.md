@@ -57,4 +57,4 @@ time=70000,|d = 1111, clk = 0, reset = 0, | q = 1111
 time=75000,|d = 1111, clk = 1, reset = 0, | q = 1111
 ```
 ## Simulation Waveform
-<img src="images/register_4bit_waveform.png" width="700">
+<img src="images/register_4bit.png" width="700">
