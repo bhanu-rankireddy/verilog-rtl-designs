@@ -1,0 +1,33 @@
+`timescale 1us/1ns
+module mux_4_1(
+	input d0,
+	input d1,
+	input d2,
+	input d3,
+	input s0,
+	input s1,
+	output y
+	);
+
+	wire y0;
+	wire y1;
+	
+mux_1bit M0(
+	.a(d0),
+	.b(d1),
+	.sel(s0),
+	.y(y0)
+	);
+mux_1bit M1(
+	.a(d2),
+	.b(d3),
+	.sel(s0),
+	.y(y1)
+	);
+mux_1bit M2(
+	.a(y0),
+	.b(y1),
+	.sel(s1),
+	.y(y)
+	);
+endmodule
