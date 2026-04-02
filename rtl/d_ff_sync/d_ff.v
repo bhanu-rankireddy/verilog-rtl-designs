@@ -1,5 +1,5 @@
 `timescale 1us/1ns
-module dff(
+module d_ff(
 	input d,
 	input clk,
 	input reset,
