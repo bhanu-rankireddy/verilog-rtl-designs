@@ -74,6 +74,8 @@ Second detection using overlapping sequence
 So output y becomes 1 at the correct detection points.
 ```
 ## Simulation Output
+
+```text
 time = 0,     | x = 0, clk = 0, reset = 1, | y = 0
 time = 5000,  | x = 0, clk = 1, reset = 1, | y = 0
 time = 10000, | x = 0, clk = 0, reset = 0, | y = 0
@@ -92,6 +94,6 @@ time = 70000, | x = 1, clk = 0, reset = 0, | y = 0
 time = 75000, | x = 1, clk = 1, reset = 0, | y = 1
 time = 80000, | x = 1, clk = 0, reset = 0, | y = 1
 time = 85000, | x = 1, clk = 1, reset = 0, | y = 0
-``
+```
 ## Simulation Waveform
 <img src="images/sequence_detector_waveform.png" width="700">
