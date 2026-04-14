@@ -94,6 +94,4 @@ time = 165000 | RED = 1 GREEN = 0 YELLOW = 0
 ---
 
 ## Simulation Waveform
-
-![Traffic Light Waveform](images/traffic_light_controller_waveform.png)
-
+<img src="images/traffic_light_controller_waveform.png" width="700">
