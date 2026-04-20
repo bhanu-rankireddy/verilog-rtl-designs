@@ -4,14 +4,14 @@ This repository contains a collection of RTL designs implemented in Verilog alon
 
 ---
 
-## 🔧 Tools Used
+## Tools Used
 
 * ModelSim – Simulation and waveform analysis
 * Quartus Prime – Synthesis and FPGA design
 
 ---
 
-##  Project Structure
+## Project Structure
 
 rtl/ → Verilog design modules
 Each folder contains:
@@ -76,7 +76,7 @@ Waveforms are included in respective folders.
 
 ---
 
-## 🔗 Author
+## Author
 
 Bhanu Rankireddy
 GitHub: https://github.com/bhanu-rankireddy
